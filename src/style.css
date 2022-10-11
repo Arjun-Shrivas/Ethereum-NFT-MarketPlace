@@ -1,0 +1,250 @@
+.ant-menu-title-content {
+  font-size: 18px
+}
+
+.ant-menu-horizontal {
+  border-bottom: 1px solid #001529;
+}
+
+.ant-menu-horizontal > .ant-menu-item-selected a {
+  color: rgba(255, 255, 255, 0.65);
+  background: #001529;
+}
+
+.ant-menu-horizontal > .ant-menu-item a:hover {
+  color: #ffffff !important;
+
+}
+
+.ant-menu-dark.ant-menu-horizontal > .ant-menu-item:hover {
+  background-color: #1890ff;
+}
+
+.ant-menu-horizontal > .ant-menu-item a {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.ant-modal-content {
+  overflow: auto;
+  border-radius: 1rem;
+}
+
+.ant-table-wrapper, .ant-form-vertical .ant-form-item .ant-form-item-control {
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 0.3rem;
+}
+
+.ant-card.ant-card-bordered {
+  width: 100%;
+  overflow: hidden;
+  justify-content: center !important;
+  box-shadow: rgb(189 197 209 / 20%) 0px 0.5rem 1.2rem;
+  border: 1px solid rgb(231, 234, 243);
+  border-radius: 0.5rem;
+  background: rgb(245, 236, 253);
+}
+
+/* .ant-select-show-search, .ant-select-selector {
+  width: 200px !important;
+} */
+
+.ant-card-body-header {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000741;
+  opacity: 0.8;
+}
+
+.ant-card-body-div {
+  padding: 10px 10px;
+}
+
+.ant-card-body-para {
+  margin-left: 1.5rem;
+  word-break: break-word;
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+
+.anticon-table, .anticon-user {
+  font-size: 16px !important;
+  padding-right: 5px;
+}
+
+.icon-info-circle, .icon-info-circle:hover {
+  font-size: 18px;
+  color: #001529;
+  align-items: center;
+  border: 0px;
+  background: inherit;
+}
+
+.action-field {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.field-title {
+  text-align: left;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: black;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin-bottom: 12px;
+}
+
+h2, h3 {
+  color: #013E62;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header .ant-collapse-arrow {
+  font-size: 20px;
+  padding-top: 3px;
+}
+
+.ant-collapse-header {
+  background-color: rgb(245, 236, 253);
+}
+
+.ant-collapse-header-text {
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.ant-divider-horizontal {
+  margin: 10px 0;
+}
+
+.anticon-bars, .anticon-align-left, .anticon-read {
+  font-size: 17px;
+}
+
+.ant-upload.ant-upload-drag {
+  border: 2px dashed rgba(0, 0, 0, 0.06);
+  border-radius: 2px;
+}
+
+.ant-upload-list {
+  margin-bottom: 20px;
+}
+
+#CollectionName, #CollectionSymbol, .ant-dropdown-trigger {
+  margin: 5px;
+  border-radius: 8px;
+}
+
+.ant-collapse-content-box {
+  display: inline-block;
+}
+
+.col-prop {
+  min-height: 30px;
+  color: black;
+  text-align: center;
+  margin: 10px;
+  width: 150px;
+  background-color: rgba(21, 178, 229, 0.06);
+  border-radius: 6px;
+  border: 1px solid rgb(21, 178, 229);
+  padding: 10px;
+  max-width: 100%;
+}
+
+.row-prop {
+  display: block;
+  float: left;
+  padding:'0 8px';
+}
+
+.mint-nft {
+  width: 700px;
+  border: 2px solid rgba(0, 0, 0, 0.06);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.ant-card.ant-card-bordered.ant-card-hoverable {
+  width: 300px !important;
+}
+
+.w-60-cursor-pointer {
+  max-width: 100%;
+}
+
+.about-nft-collection {
+  color: #013E62;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
+.a-attributes .ant-card {
+    background-color: transparent;
+}
+
+.a-attributes .ant-card .ant-card-head {
+  color: white;
+}
+
+.a-attributes .ant-card .ant-card-body {
+  color: white;
+}
+
+.a-attributes .ant-list {
+  margin: 1.2rem 0 0 1.5rem;
+}
+
+h6 {
+  display: block;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #000741;
+  opacity: 0.8;
+}
+
+.ant-card-bordered {
+  border: 1px solid #303030;
+  background-color: #141414;
+}
+
+.file-search {
+  margin-top: 30px;
+  float: left;
+  font-size: 20px;
+  padding: 0px 20px;
+}
+
+.anchor-text {
+  font-weight: 400;
+}
+
+.anchor-text:hover {
+  color: #0047ab;
+  text-decoration: underline;
+}
+
+.btn,
+.btn:focus {
+  background: #00152900;
+  color: rgb(255 255 255);
+  border: none;
+}
+
+.btn:hover {
+  color: #40a9ff;
+  border-color: #40a9ff;
+  background: #1890ff;
+}

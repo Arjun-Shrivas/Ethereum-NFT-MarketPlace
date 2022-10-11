@@ -1,0 +1,22 @@
+{
+  "short_name": "BCS NFT",
+  "name": "BCS NFT",
+  "icons": [
+    {
+      "src": "bcd-nft.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "bcs-nft.png",
+      "type": "image/png",
+      "sizes": "200x200"
+    }
+  ],
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

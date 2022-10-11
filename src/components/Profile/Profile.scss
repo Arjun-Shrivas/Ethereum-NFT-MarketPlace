@@ -1,0 +1,89 @@
+$main-color:#4dd6b6;
+$secondry-color:#26343D;
+
+.MianProfileDiv{
+    height: 100vh;
+    width: 100vw;
+    
+    
+
+    .profileContainer{
+        width: 100%;
+        height: 100vh;
+        background: white;
+        margin: auto;
+        
+
+        .top-portion{
+
+            height: 35%;
+            width: 100%;
+            position: relative;
+
+            .user-profile-bg-image{
+                height: 80%;
+                width: 100%;
+                background: $main-color;
+                overflow: hidden;
+                #prf-bg-img{
+                width: 100vw;
+                height: 100vh;
+                margin-top: -12rem;
+                }
+            }
+
+            .user-profile-img{
+                position: absolute;
+                height: 66%;
+                width: 14%;
+                border-radius: 50%;
+                transform: translateX(50%);
+                right: 85%;
+                background-color: $secondry-color;
+                bottom: -2rem;
+
+                #prf-img{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    border-radius: 50%;
+                    align-items: center;
+                    justify-content: center;
+                    
+
+                   
+                }
+                .username{
+                    text-align: center;
+                    width: 100%;
+                    position: absolute;
+                    font-size: 2rem;
+                    color: black;
+                    
+                    
+                }
+
+            }
+            
+           
+        }
+        .bottom-portion{
+            
+            flex-direction: row;
+            margin-top: 8%;
+            width: 100%;
+            
+        }
+
+        
+
+} 
+
+   
+}
+
+
+
+
+
+
